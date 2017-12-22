@@ -3,6 +3,8 @@ $(document).ready(function() {
   var passwordText = $('#password');
   var confirmText = $('#confirm_password');
   var buttonSubmit = $('#submit'); 
+
+  $('from p span').hide();
   
   usernameText.focus();  
   passwordText.attr('disabled', true);
